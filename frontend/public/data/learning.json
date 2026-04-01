@@ -1,0 +1,1001 @@
+{
+  "1": {
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Module 1: Introduction to React",
+        "lessons": [
+          {
+            "id": "what-is-react",
+            "title": "What is React?",
+            "duration": "12 min",
+            "completed": false,
+            "playing": true,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=LX4JUscM9Sk&pp=ygUNd2hhdCBpcyByZWFjdA%3D%3D"
+          },
+          {
+            "id": "history-of-react",
+            "title": "History of React",
+            "duration": "15 min",
+            "completed": true,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=MiK2bFqhg1U&pp=ygUQaGlzdG9yeSBvZiByZWFjdA%3D%3D"
+          },
+          {
+            "id": "setup-react",
+            "title": "Setup React",
+            "duration": "8 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Module 2: Components and Props",
+        "lessons": [
+          {
+            "id": "creating-components",
+            "title": "Creating Components",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=d5ooYpXioqE&pp=ygUbY3JlYXRpbmcgY29tcG9uZW50IGluIHJlYWN0"
+          },
+          {
+            "id": "props-basics",
+            "title": "Props Basics",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=uvEAvxWvwOs&t=56s&pp=ygUMcHJvcHMgYmFzaWNz"
+          },
+          {
+            "id": "prop-types-default-props",
+            "title": "PropTypes and Default Props",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_cuFjX96mk0&pp=ygUKcHJvcHN0eXBlcw%3D%3D"
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Module 3: State and Lifecycle",
+        "lessons": [
+          {
+            "id": "state-management",
+            "title": "State Management",
+            "duration": "20 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UbLYdbOPLe8&pp=ygUcc3RhdGUgYW5kIGxpZmVjeWNsZSByZWFjdCBqcw%3D%3D"
+          },
+          {
+            "id": "lifecycle-methods",
+            "title": "Lifecycle Methods",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qnN_FuFNq2g&pp=ygUdbGlmZWN5Y2xlIG1ldGhvZHMgaW4gcmVhY3QganM%3D"
+          },
+          {
+            "id": "lifting-state-up",
+            "title": "Lifting State Up",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Z4hN0WZbASk&pp=ygUZbGlmdGluZyBzdGF0ZSB1cCByZWFjdCBqcw%3D%3D"
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Module 4: React Hooks Fundamentals",
+        "lessons": [
+          {
+            "id": "intro-to-hooks",
+            "title": "Introduction to Hooks",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=TNhaISOUy6Q"
+          },
+          {
+            "id": "usestate-hook",
+            "title": "Using useState Hook",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=O6P86uwfdR0"
+          },
+          {
+            "id": "useeffect-hook",
+            "title": "Using useEffect Hook",
+            "duration": "20 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0ZJgIjIuY7U"
+          }
+        ]
+      },
+      {
+        "id": "module-5",
+        "title": "Module 5: Forms and Events",
+        "lessons": [
+          {
+            "id": "handling-events",
+            "title": "Handling Events in React",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cXkwFjBrWfk&pp=ygUYaGFuZGxpbmcgZXZlbnRzIHJlYWN0IGpz"
+          },
+          {
+            "id": "controlled-components",
+            "title": "Controlled Components",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=yzqUCV3qPX0&pp=ygUeY29udHJvbGxlZCBjb21wb25lbnRzIHJlYWN0IGpz"
+          },
+          {
+            "id": "form-validation",
+            "title": "Basic Form Validation",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      },
+      {
+        "id": "module-6",
+        "title": "Module 6: React Router",
+        "lessons": [
+          {
+            "id": "intro-to-react-router",
+            "title": "Introduction to React Router",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ZP8QyCIUeIA&pp=ygUVcmVhY3Qgcm91dGVyIHJlYWN0IGpz"
+          },
+          {
+            "id": "dynamic-routing",
+            "title": "Dynamic Routing and URL Params",
+            "duration": "17 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Ul3y1LXxzdU"
+          },
+          {
+            "id": "nested-routes",
+            "title": "Nested Routes",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      },
+      {
+        "id": "module-7",
+        "title": "Module 7: Context API and Global State",
+        "lessons": [
+          {
+            "id": "intro-to-context-api",
+            "title": "Introduction to Context API",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dVIKDjxZd_w&pp=ygUUY29udGV4dCBhcGkgcmVhY3QganM%3D"
+          },
+          {
+            "id": "creating-context-provider",
+            "title": "Creating a Context Provider",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=5LrDIWkK_Bc"
+          },
+          {
+            "id": "usecontext-hook",
+            "title": "Using useContext Hook",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lhMKvyLRWo0"
+          }
+        ]
+      },
+      {
+        "id": "module-8",
+        "title": "Module 8: API Calls and Deployment",
+        "lessons": [
+          {
+            "id": "fetch-api-react",
+            "title": "Fetching Data with Fetch API",
+            "duration": "19 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=bYFYF2GnMy8"
+          },
+          {
+            "id": "axios-api-calls",
+            "title": "Making API Calls with Axios",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6LyagkoRWYA"
+          },
+          {
+            "id": "deployment-guide",
+            "title": "Deploying a React App",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      }
+    ],
+    "course": {
+      "title": "React Fundamentals",
+      "subtitle": "Complete Course",
+      "logo": "/AI_Tutor_New_UI/Dashboard/logo.png",
+      "progress": 25
+    },
+    "currentLesson": {
+      "id": "what-is-react",
+      "title": "What is React?",
+      "module": "Module 1: Introduction to React",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LX4JUscM9Sk",
+      "content": {
+        "introduction": "React is a popular JavaScript library for building user interfaces, particularly for web applications. This course covers the fundamentals of React, including components, state management, and more.",
+        "keyConcepts": [
+          {
+            "title": "Components",
+            "description": "Reusable building blocks for UI elements in React.",
+            "borderColor": "border-[#60A5FA]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "JSX",
+            "description": "A syntax extension for JavaScript used in React to describe UI.",
+            "borderColor": "border-[#C084FC]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "Virtual DOM",
+            "description": "A lightweight representation of the DOM for efficient updates.",
+            "borderColor": "border-[#22D3EE]",
+            "bgColor": "bg-[#1F2937]",
+            "textColor": "text-white",
+            "descriptionColor": "text-[#D1D5DB]"
+          }
+        ]
+      }
+    }
+  },
+  "2": {
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Module 1: Python Basics for AI",
+        "lessons": [
+          {
+            "id": "python-intro",
+            "title": "Introduction to Python",
+            "duration": "15 min",
+            "completed": false,
+            "playing": true,
+            "type": "video"
+          },
+          {
+            "id": "data-types",
+            "title": "Data Types and Variables",
+            "duration": "12 min",
+            "completed": true,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "control-structures",
+            "title": "Control Structures",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Module 2: AI Libraries in Python",
+        "lessons": [
+          {
+            "id": "numpy-intro",
+            "title": "NumPy for Data Handling",
+            "duration": "20 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "pandas-basics",
+            "title": "Pandas for Data Analysis",
+            "duration": "22 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Module 3: Machine Learning with Scikit-learn",
+        "lessons": [
+          {
+            "id": "ml-basics",
+            "title": "Machine Learning Basics",
+            "duration": "25 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "supervised-learning",
+            "title": "Supervised Learning",
+            "duration": "28 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          }
+        ]
+      }
+    ],
+    "course": {
+      "title": "Python For AI",
+      "subtitle": "Master Python for Artificial Intelligence",
+      "logo": "/AI_Tutor_New_UI/Dashboard/python_for_ai_logo.png",
+      "progress": 50
+    },
+    "currentLesson": {
+      "id": "python-intro",
+      "title": "Introduction to Python",
+      "module": "Module 1: Python Basics for AI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+      "content": {
+        "introduction": "Python is the go-to language for AI and machine learning. This course teaches Python fundamentals tailored for AI applications, from basic syntax to advanced libraries.",
+        "keyConcepts": [
+          {
+            "title": "Python Syntax",
+            "description": "Basic rules and structure of Python programming.",
+            "borderColor": "border-[#60A5FA]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "Data Structures",
+            "description": "Lists, dictionaries, and other data containers in Python.",
+            "borderColor": "border-[#C084FC]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "AI Libraries",
+            "description": "Essential libraries like NumPy, Pandas, and Scikit-learn for AI.",
+            "borderColor": "border-[#22D3EE]",
+            "bgColor": "bg-[#1F2937]",
+            "textColor": "text-white",
+            "descriptionColor": "text-[#D1D5DB]"
+          }
+        ]
+      }
+    }
+  },
+  "3": {
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Module 1: Ethics in AI",
+        "lessons": [
+          {
+            "id": "ai-ethics-intro",
+            "title": "Introduction to AI Ethics",
+            "duration": "14 min",
+            "completed": false,
+            "playing": true,
+            "type": "video"
+          },
+          {
+            "id": "ethical-principles",
+            "title": "Ethical Principles in AI",
+            "duration": "16 min",
+            "completed": true,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "case-studies",
+            "title": "Case Studies",
+            "duration": "20 min",
+            "completed": false,
+            "playing": false,
+            "type": "document"
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Module 2: Bias in AI Systems",
+        "lessons": [
+          {
+            "id": "bias-types",
+            "title": "Types of Bias in AI",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "detecting-bias",
+            "title": "Detecting and Mitigating Bias",
+            "duration": "22 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Module 3: Responsible AI Development",
+        "lessons": [
+          {
+            "id": "fairness",
+            "title": "Ensuring Fairness",
+            "duration": "19 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          },
+          {
+            "id": "transparency",
+            "title": "Transparency and Accountability",
+            "duration": "21 min",
+            "completed": false,
+            "playing": false,
+            "type": "video"
+          }
+        ]
+      }
+    ],
+    "course": {
+      "title": "AI Ethics & Bias",
+      "subtitle": "Understanding Ethical AI Practices",
+      "logo": "/AI_Tutor_New_UI/Dashboard/data_analytics.png",
+      "progress": 100
+    },
+    "currentLesson": {
+      "id": "ai-ethics-intro",
+      "title": "Introduction to AI Ethics",
+      "module": "Module 1: Ethics in AI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5rE_LPSvTFY",
+      "content": {
+        "introduction": "AI Ethics and Bias explores the moral implications of artificial intelligence, focusing on fairness, accountability, and responsible development of AI systems.",
+        "keyConcepts": [
+          {
+            "title": "Ethical AI",
+            "description": "Developing AI systems that align with human values and principles.",
+            "borderColor": "border-[#60A5FA]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "Bias Mitigation",
+            "description": "Techniques to identify and reduce bias in AI algorithms.",
+            "borderColor": "border-[#C084FC]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "Responsible AI",
+            "description": "Ensuring AI development considers societal impact and ethical concerns.",
+            "borderColor": "border-[#22D3EE]",
+            "bgColor": "bg-[#1F2937]",
+            "textColor": "text-white",
+            "descriptionColor": "text-[#D1D5DB]"
+          }
+        ]
+      }
+    }
+  },
+  "4": {
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Module 1: Introduction to PostgreSQL",
+        "lessons": [
+          {
+            "id": "what-is-postgresql",
+            "title": "What is PostgreSQL?",
+            "duration": "12 min",
+            "completed": false,
+            "playing": true,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qw--VYLpxG4"
+          },
+          {
+            "id": "installing-postgresql",
+            "title": "Installing PostgreSQL",
+            "duration": "10 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xaWlS9HtWYw"
+          },
+          {
+            "id": "postgresql-architecture",
+            "title": "PostgreSQL Architecture",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2jshzBvNW9o"
+          },
+          {
+            "id": "setting-up-environment",
+            "title": "Setting Up Your Environment",
+            "duration": "9 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=T8R1_nOGTex"
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Module 2: Basic SQL Operations",
+        "lessons": [
+          {
+            "id": "creating-databases",
+            "title": "Creating Databases",
+            "duration": "11 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=HpD4Mf-QS64"
+          },
+          {
+            "id": "creating-tables",
+            "title": "Creating Tables",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Y4cLdMUvwAE"
+          },
+          {
+            "id": "insert-update-delete",
+            "title": "Insert Update Delete",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=RhAAjy_iP5w"
+          },
+          {
+            "id": "select-queries",
+            "title": "Select Queries",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=eMJk4ysfAfE"
+          },
+          {
+            "id": "filtering-sorting",
+            "title": "Filtering and Sorting Data",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0nwcqv4vjV8"
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Module 3: Advanced SQL Queries",
+        "lessons": [
+          {
+            "id": "joins",
+            "title": "Joins",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2vXlKNl7QAI"
+          },
+          {
+            "id": "aggregate-functions",
+            "title": "Aggregate Functions",
+            "duration": "11 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=mFhqLZ1xpnQ"
+          },
+          {
+            "id": "group-by-having",
+            "title": "Group By and Having",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_aYKvWbkqrE"
+          },
+          {
+            "id": "subqueries",
+            "title": "Subqueries and Nested Queries",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8C4i--d5z3s"
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Module 4: Indexes and Performance",
+        "lessons": [
+          {
+            "id": "indexes",
+            "title": "Indexes",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=fsG1XaZEUhQ"
+          },
+          {
+            "id": "query-optimization",
+            "title": "Query Optimization",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=P5NKmlQQ7tE"
+          },
+          {
+            "id": "explain-analyze",
+            "title": "EXPLAIN and ANALYZE",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WF5-LKdB-Jo"
+          },
+          {
+            "id": "performance-tuning",
+            "title": "Performance Tuning",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ghTaVCWXgfI"
+          }
+        ]
+      },
+      {
+        "id": "module-5",
+        "title": "Module 5: Views and Functions",
+        "lessons": [
+          {
+            "id": "views-and-functions",
+            "title": "Views and Virtual Tables",
+            "duration": "18 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=AGMnArz6HhY"
+          },
+          {
+            "id": "stored-procedures",
+            "title": "Stored Procedures",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=m9Gh0TUedjI"
+          },
+          {
+            "id": "triggers",
+            "title": "Triggers",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=bNPWpHKTJVE"
+          },
+          {
+            "id": "user-defined-functions",
+            "title": "User Defined Functions",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3FZWQNIBHpw"
+          }
+        ]
+      },
+      {
+        "id": "module-6",
+        "title": "Module 6: Transactions and Data Integrity",
+        "lessons": [
+          {
+            "id": "transactions",
+            "title": "Transactions and ACID",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=V4r7TuLfmPg"
+          },
+          {
+            "id": "constraints",
+            "title": "Database Constraints",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=zJX6YHlzpTE"
+          },
+          {
+            "id": "foreign-keys",
+            "title": "Foreign Keys and Relationships",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lVLhBMPSqAY"
+          },
+          {
+            "id": "data-validation",
+            "title": "Data Validation and Integrity",
+            "duration": "11 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FPsQmNsz2Oc"
+          }
+        ]
+      },
+      {
+        "id": "module-7",
+        "title": "Module 7: Security and Access Control",
+        "lessons": [
+          {
+            "id": "user-roles",
+            "title": "Users and Roles",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0xQSzL5zUTw"
+          },
+          {
+            "id": "permissions",
+            "title": "Permissions and Privileges",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=F_rYYpXYECk"
+          },
+          {
+            "id": "encryption",
+            "title": "Encryption and SSL",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=PREB_Y5f9vg"
+          },
+          {
+            "id": "authentication",
+            "title": "Authentication Methods",
+            "duration": "11 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=GEfZI6R6WtY"
+          }
+        ]
+      },
+      {
+        "id": "module-8",
+        "title": "Module 8: Backup and Recovery",
+        "lessons": [
+          {
+            "id": "backup-strategies",
+            "title": "Backup Strategies",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=YhkBRx6J7HQ"
+          },
+          {
+            "id": "full-backup",
+            "title": "Full Database Backup",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-_qRz2a7kUA"
+          },
+          {
+            "id": "incremental-backup",
+            "title": "Incremental Backup",
+            "duration": "11 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=DKBMVvVqbD8"
+          },
+          {
+            "id": "restore-recovery",
+            "title": "Restore and Recovery",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qXeO-1CXRME"
+          }
+        ]
+      },
+      {
+        "id": "module-9",
+        "title": "Module 9: Replication and High Availability",
+        "lessons": [
+          {
+            "id": "replication-basics",
+            "title": "Replication Basics",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_TYO1yPxHXo"
+          },
+          {
+            "id": "streaming-replication",
+            "title": "Streaming Replication",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=zzCqhkRy4W4"
+          },
+          {
+            "id": "failover",
+            "title": "Failover and Recovery",
+            "duration": "12 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=NP4ZXPvIrLI"
+          }
+        ]
+      },
+      {
+        "id": "module-10",
+        "title": "Module 10: Real World Applications",
+        "lessons": [
+          {
+            "id": "web-app-integration",
+            "title": "Web Application Integration",
+            "duration": "16 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WYDPj2T9scA"
+          },
+          {
+            "id": "data-migration",
+            "title": "Data Migration Strategies",
+            "duration": "14 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=phNo84UqKPw"
+          },
+          {
+            "id": "json-support",
+            "title": "JSON Support in PostgreSQL",
+            "duration": "13 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=GhM8cksMxlc"
+          },
+          {
+            "id": "best-practices",
+            "title": "PostgreSQL Best Practices",
+            "duration": "15 min",
+            "completed": false,
+            "playing": false,
+            "type": "video",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oeIzKqLWruw"
+          }
+        ]
+      }
+    ],
+    "course": {
+      "title": "PostgreSQL",
+      "subtitle": "Learn PostgreSQL Database Fundamentals and SQL Operations",
+      "logo": "AI_Tutor_New_UI/Dashboard/full_stack_web_dev.png",
+      "progress": 0
+    },
+    "currentLesson": {
+      "id": "what-is-postgresql",
+      "title": "What is PostgreSQL?",
+      "module": "Module 1: Introduction to PostgreSQL",
+      "youtubeUrl": "",
+      "content": {
+        "introduction": "PostgreSQL is a powerful, open-source relational database system known for its reliability, robustness, and rich feature set. Learn the fundamentals of PostgreSQL database management and SQL operations.",
+        "keyConcepts": [
+          {
+            "title": "Relational Database",
+            "description": "Organize data in tables with relationships and structured queries.",
+            "borderColor": "border-[#3B82F6]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "SQL Operations",
+            "description": "Master Create, Read, Update, and Delete operations on databases.",
+            "borderColor": "border-[#60A5FA]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          },
+          {
+            "title": "Data Integrity",
+            "description": "Ensure data consistency and reliability with advanced PostgreSQL features.",
+            "borderColor": "border-[#1E40AF]",
+            "bgColor": "bg-white",
+            "textColor": "text-black"
+          }
+        ]
+      }
+    }
+  }
+}
