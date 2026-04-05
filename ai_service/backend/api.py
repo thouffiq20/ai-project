@@ -6,8 +6,6 @@ import re
 import traceback
 import pyttsx3
 import cloudinary
-import requests
-import time
 import cloudinary.uploader
 from dotenv import load_dotenv
 
@@ -62,36 +60,6 @@ class LessonRequest(BaseModel):
     celebrity: str
 
 
-# --------------------------
-# Helpers
-# --------------------------
-def generate_owl_video(audio_url):
-    url = "https://api.d-id.com/talks"
-
-    headers = {
-        "Authorization": os.getenv("DID_API_KEY"),
-        "Content-Type": "application/json",
-    }
-
-    data = {
-        "source_url": "https://res.cloudinary.com/deaydz4ky/image/upload/v1774892328/owl_uyhapz.png",
-        "script": {"type": "audio", "audio_url": audio_url},
-    }
-
-    response = requests.post(url, json=data, headers=headers)
-    talk_id = response.json().get("id")
-
-    # wait for result
-    while True:
-        res = requests.get(f"https://api.d-id.com/talks/{talk_id}", headers=headers)
-        result = res.json()
-
-        if result.get("status") == "done":
-            return result.get("result_url")
-
-        time.sleep(2)
-
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -106,13 +74,21 @@ def get_tts_engine():
 
 def get_celebrity_video(celebrity_name: str):
     input_video_dir = os.path.join(BASE_DIR, "backend", "input")
+
+    # ✅ HANDLE OWL FIRST
+    if celebrity_name.lower() == "owl":
+        owl_video = os.path.join(input_video_dir, "owl.mp4")
+        if os.path.exists(owl_video):
+            print(f"🦉 Using owl video: {owl_video}")
+            return owl_video
+
+    # 👇 NORMAL FLOW
     celebrity_video = os.path.join(input_video_dir, f"{celebrity_name.lower()}.mp4")
 
     if os.path.exists(celebrity_video):
         print(f"🎬 Using celebrity video: {celebrity_video}")
         return celebrity_video
     else:
-        # Fallback to default video (modi.mp4)
         input_video = os.path.join(input_video_dir, "modi.mp4")
         print(f"🎬 Using default video: {input_video}")
         return input_video
@@ -258,23 +234,6 @@ def process_lesson(data: LessonRequest, base_filename: str):
             print(f"✅ Audio saved: {audio_path}")
         except Exception as e:
             print(f"❌ TTS Error: {e}")
-            return
-
-        # 🦉 Owl handling using D-ID
-        if data.celebrity.lower() == "owl":
-            print("🦉 Generating Owl video using D-ID...")
-
-            upload_audio = cloudinary.uploader.upload(audio_path, resource_type="video")
-            audio_url = upload_audio.get("secure_url")
-
-            did_video_url = generate_owl_video(audio_url)
-
-            job_status[base_filename] = {
-                "status": "ready",
-                "cloudinary_url": did_video_url,
-            }
-
-            print(f"✅ Owl video ready: {did_video_url}")
             return
 
         # 5️⃣ Select Video
